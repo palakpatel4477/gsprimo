@@ -1,0 +1,41 @@
+.centered-section-siouxlookout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 65%;
+    height: 100%;
+    margin-top: 3%;
+  }
+  
+  .text-section-siouxlookout {
+    flex-basis: 50%;
+    padding-right: 20px;
+    margin-right: 30px;
+  }
+  
+  .text-section-siouxlookout h1 {
+    font-size: 2rem;
+  }
+  
+  .text-section-siouxlookout span {
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 1.5;
+  }
+  
+  .image-section-siouxlookout {
+    flex-basis: 50%;
+    margin-right: 50px;
+  }
+  
+  .project-image-siouxlookout {
+    width: 610px;
+    height: 460px;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  .image-row{
+    margin-top: 2.1%;
+  }

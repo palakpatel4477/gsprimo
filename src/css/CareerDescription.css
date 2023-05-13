@@ -1,0 +1,31 @@
+
+
+.container-careerDesc {
+    display: grid;
+    grid-template-rows:1fr;
+    height: 400px;
+    background-color: white;
+  }
+  
+  .centered-section-careerDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .centered-section-careerDesc h2{
+    font-size: 2.5rem;
+  }
+
+  .centered-section-careerDesc p{
+    text-align: center;
+    margin-left: 30%;
+    margin-right:30% ;
+    line-height: 1.7;
+  }
+
+
+.span-text-careerDesc{
+    font-weight: 200;
+  }
