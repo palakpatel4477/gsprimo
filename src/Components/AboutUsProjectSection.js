@@ -6,7 +6,7 @@ const AboutUsProjectSection = () => {
     return (
         <section className="my-section-project-section">
             <div className="left-column-project-section">
-                <h2 className='centered-text-project-section'>About <span className='spanText-project-section'>Us</span></h2>
+                <h2 className='centered-text-project-section'>About <span className='spanText-project-section'>us</span></h2>
             </div>
             <div className="right-column-project-section">
                 <p>
@@ -14,7 +14,7 @@ const AboutUsProjectSection = () => {
                     <br/><br/>We are also licensed well contractors, and our in-house drilling crews are fully licensed and insured in installing monitoring water wells and advancing boreholes for your projects.
                 </p>
                 <br/>
-                <NavLink to='projects'><button className="about-button-project-section">Our Projects</button></NavLink>
+                <a href='projects'><button className="about-button-project-section">Our Projects</button></a>
             </div>
         </section>
     );

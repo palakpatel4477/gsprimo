@@ -101,3 +101,14 @@
 .text-container p {
   font-size: 1.5rem;
 }
+
+@media (min-width:1024px) and (max-width:1440px){
+  .hero-aboutus{
+    background-image: url(../images/about1.jpeg);
+    background-attachment: fixed;
+    /* background-size:contain; */
+    height: 550px;
+    /* width:100%; */
+    position: relative;
+  }
+}

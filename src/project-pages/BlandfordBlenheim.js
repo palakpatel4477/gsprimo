@@ -12,7 +12,7 @@ const BlandfordBlenheim = () => {
                 <div className="overlay-project"></div>
                 <img src={Project7} alt="image-description" />
                 <div className="text-container-project">
-                    <h1>Township Road 6, Blandford-Blenheim, ON</h1>
+                    <h1>Blandford-Blenheim, ON</h1>
                 </div>
             </div>
             <div className="centered-section-blandfordblenheim">

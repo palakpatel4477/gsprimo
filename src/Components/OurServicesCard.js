@@ -15,7 +15,6 @@ const OurServicesCard = () => {
   return (
     <>
       <div className='outer-ourservice-card'>
-        {/* <span className='span-text'>Our</span>  */}
         <h2 className='heading-projects'>Services</h2>
         <div className="service-cards">
           <a href='/services'>
@@ -39,7 +38,7 @@ const OurServicesCard = () => {
           <a href='/services'>
             <div className="service-card">
               <img src={Hydrogelogy} alt="service1" />
-              <h3>Hydrogeological</h3>
+              <h3>Hydrogeology</h3>
               <p>We install monitoring wells and provide recommendations for dewatering and groundwater control measures.</p>
               <a href="#">Read More &gt;&gt;</a>
             </div>

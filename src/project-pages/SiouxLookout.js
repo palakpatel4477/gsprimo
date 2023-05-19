@@ -14,7 +14,7 @@ const SiouxLookout = () => {
                 <div className="overlay-project"></div>
                 <img src={Project11} alt="image-description" />
                 <div className="text-container-project">
-                    <h1>Fifth Ave, Sioux Lookout, ON</h1>
+                    <h1>Fifth Ave., Sioux Lookout, ON</h1>
                 </div>
             </div>
             <div className="centered-section-siouxlookout">
@@ -33,7 +33,7 @@ const SiouxLookout = () => {
                 <div className="image-section-siouxlookout">
                     <img className='project-image-siouxlookout' src={P1} alt="Section Image" />
                 </div>
-                <div className="text-section-siouxlookout">
+                <div className="text-section-siouxlookout" id='para-two-siouxlookout'>
                     <span>
                         In addition, Detailed Civil Engineering and Structural Designs were carried out for the proposed development. An underground detention tank with an orifice was proposed to ensure that the peak discharge rates to the storm sewer on Fifth Ave. would be below the allowable maximum rates for all storms up to and including the 100-year storm event. 
                         <br/><br/>The proposed roof framing system for the retail store cantilever (Gerber) girders and open web steel joists. A comprehensive report and sets of drawings were prepared to document the construction recommendations for the proposed structures, as well as the underground sewage systems. 

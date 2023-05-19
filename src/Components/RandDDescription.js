@@ -27,9 +27,9 @@ const CareerDescription = () => {
           <img className='project-image-randd' src={R2} alt="Section Image" />
         </div>
         <div className="text-section-randd">
-        <h3>Geocomputer</h3>
+        <h3>GeoComputer</h3>
           <span>
-            Geocomputer is a comprehensive and user-friendly web-based tool developed by GSPrimo for a range of geotechnical-related analyses. The platform is designed to provide engineers and geotechnical professionals with a flexible and reliable service that allows them to perform various types of analyses and design tasks using the data gathered during field investigations. With Geocomputer, users can easily perform slope stability analysis, pile design, footing design, shoring design, and stratigraphy generation, among others. The tool's intuitive interface and advanced functionalities make it a powerful tool for geotechnical engineers, allowing them to save time and effort in their day-to-day work. Whether you are working on a small-scale project or a large-scale development, Geocomputer is the ideal tool for all your geotechnical needs.
+            GeoComputer is a comprehensive and user-friendly web-based tool developed by GSPrimo for a range of geotechnical-related analyses. The platform is designed to provide engineers and geotechnical professionals with a flexible and reliable service that allows them to perform various types of analyses and design tasks using the data gathered during field investigations. With GeoComputer, users can easily perform slope stability analysis, pile design, footing design, shoring design, and stratigraphy generation, among others. The tool's intuitive interface and advanced functionalities make it a powerful tool for geotechnical engineers, allowing them to save time and effort in their day-to-day work. Whether you are working on a small-scale project or a large-scale development, GeoComputer is the ideal tool for all your geotechnical needs.
           </span>
         </div>
       </div>

@@ -14,7 +14,7 @@ function Highbury() {
                 <div className="overlay-project"></div>
                 <img src={Project3} alt="image-description" />
                 <div className="text-container-project">
-                    <h1>Highbury Ave N, London, ON</h1>
+                    <h1>Highbury Ave. N, London, ON</h1>
                 </div>
             </div>
             <div className="centered-section-highbury">

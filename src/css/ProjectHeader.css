@@ -34,3 +34,10 @@
 .span-text-projectheader{
     font-weight: 200;
   }
+
+  @media (min-width:1024px) and (max-width:1440px){
+    .centered-section-projectheader p{
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+  }

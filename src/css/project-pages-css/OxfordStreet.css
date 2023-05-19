@@ -26,7 +26,7 @@
   
   .image-section-oxfordstreet {
     flex-basis: 50%;
-    margin-right: 50px;
+    /* margin-right: 50px; */
   }
   
   .project-image-oxfordstreet {
@@ -39,3 +39,65 @@
   .image-row{
     margin-top: 2.1%;
   }
+
+  /* Laptop size */
+
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .centered-section-oxfordstreet {
+    max-width: 94%;
+    /* height: auto; */
+  }
+
+  .text-section-oxfordstreet h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .text-section-oxfordstreet span {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  .image-section-oxfordstreet{
+    margin-right: 0;
+  }
+  .image-section-oxfordstreet img{
+    width: 100%;
+    /* background-size: cover; */
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1400px){
+  .text-section-oxfordstreet span {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1401px){
+  .text-section-oxfordstreet span {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1441px){
+  .centered-section-oxfordstreet {
+    max-width: 75%;
+    /* height: auto; */
+  }
+  .text-section-oxfordstreet span {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1690px){
+  .text-section-oxfordstreet span {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+

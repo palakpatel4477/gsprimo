@@ -15,7 +15,7 @@ const ImperialRoad = () => {
                 <div className="overlay-project"></div>
                 <img src={Project2} alt="image-description" />
                 <div className="text-container-project">
-                    <h1>Imperial Road, Malahide, ON</h1>
+                    <h1>Imperial Rd., Malahide, ON</h1>
                 </div>
             </div>
             <div className="centered-section-imperial">
@@ -43,11 +43,12 @@ const ImperialRoad = () => {
                 <div className="image-section-imperial">
                     <img className='project-image-imperial' src={P25} alt="Section Image" />
                 </div>
-                <div className="text-section-imperial">
+                <div className="text-section-imperial" id='para-two-imperial'>
                     <span>
                         The hydrogeological study assessed groundwater
                         conditions to meet the design and permitting requirements for the proposed development.
-                        In addition to these services, GSPrimo also conducted a Phase One Environmental Site Assessment (Phase I ESA) for the site. The purpose of the report was to review previous and current uses and operations on the subject site and surrounding properties, and to identify potential issues of environmental concern. This assessment was performed in general accordance with the Canadian Standards Association (CSA) document entitled Phase I Environmental Site Assessment, CSA Standard Z768-01 dated November 2012.
+                        In addition to these services, GSPrimo also conducted a Phase One Environmental Site Assessment (Phase I ESA) for the site. The purpose of the report was to review previous and current uses and operations on the subject site and surrounding properties, and to identify potential issues of environmental concern. 
+                        <br/><br/>This assessment was performed in general accordance with the Canadian Standards Association (CSA) document entitled Phase I Environmental Site Assessment, CSA Standard Z768-01 dated November 2012.
                     </span>
                 </div>
             </div>

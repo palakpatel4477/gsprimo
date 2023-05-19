@@ -27,7 +27,7 @@ export default function RootLayout(){
                     <nav className="header-nav">
                     <ul>
                         <li><NavLink to='/'>Home</NavLink><span className='line-divider'> |</span></li>
-                        <li><NavLink to='aboutus'>About Us</NavLink><span className='line-divider'> |</span></li>
+                        <li><NavLink to='aboutus'>About us</NavLink><span className='line-divider'> |</span></li>
                         <li><NavLink to='services'>Services</NavLink><span className='line-divider'> |</span></li>
                         <li><NavLink to='randd'>R&D</NavLink><span className='line-divider'> |</span></li>
                         <li><NavLink to='projects'>Projects</NavLink><span className='line-divider'> |</span></li>

@@ -1,7 +1,5 @@
 import React from "react";
 import "../css/AboutUs.css";
-import Image from '../images/about1.jpeg'
-import AboutUsDescription from "../Components/AboutUsDescription";
 import Footer from "../Components/Footer";
 import AboutUsProjectSection from "../Components/AboutUsProjectSection";
 import AboutUsContactSection from "../Components/AboutUsContactSection";

@@ -3,16 +3,35 @@
     height: 900px;
     width:100%;
     position: relative;
-    background-image: url(../images/home11.jpeg);
+    /* background-image: url(../images/home11.jpeg); */
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* opacity: 0.5; */
+    /* transition: transform 2.5s ease-in-out, box-shadow 2.5s ease-in-out; */
+    opacity: 1;
   }
   
+  .background-slider {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    /* transition: opacity 0.5s ease-out; */
+    /* transition: transform 0.5s ease-out; */
+    /* transition: transform 2.5s ease-in-out, box-shadow 2.5s ease-in-out; */
+  }
+  
+  .background-slider.transitioning {
+    opacity: 1;
+    /* transform:translateX(-100%); */
+    /* transform: scale(0.8) translateY(-20px); */
+  }
+
   .hero-content {
     text-align: center;
   }
@@ -47,3 +66,10 @@
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
   }
   
+
+  @media (min-width:1024px) and (max-width:1440px){
+    .hero{
+      padding: 0;
+      margin: 0;
+    }
+  }

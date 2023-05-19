@@ -26,7 +26,7 @@
   
   .image-section-siouxlookout {
     flex-basis: 50%;
-    margin-right: 50px;
+    /* margin-right: 50px; */
   }
   
   .project-image-siouxlookout {
@@ -39,3 +39,73 @@
   .image-row{
     margin-top: 2.1%;
   }
+
+  #para-two-siouxlookout{
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 50px;
+  }
+  /* Laptop size */
+
+
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .centered-section-siouxlookout {
+      max-width: 94%;
+      /* height: auto; */
+    }
+
+    
+  
+    .text-section-siouxlookout h3 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    .text-section-siouxlookout span {
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+    .image-section-siouxlookout{
+      margin-right: 0;
+    }
+    .image-section-siouxlookout img{
+      width: 100%;
+      /* background-size: cover; */
+    }
+  }
+  
+  
+  @media (min-width: 1200px) and (max-width: 1400px){
+    .text-section-siouxlookout span {
+      font-size: 1.25rem;
+      line-height: 1.5;
+    }
+  }
+  
+  @media (min-width: 1401px){
+    .text-section-siouxlookout span {
+      font-size: 1.37rem;
+      line-height: 1.5;
+    }
+  }
+  
+  @media (min-width: 1441px){
+    .centered-section-siouxlookout {
+      max-width: 75%;
+      /* height: auto; */
+    }
+    .text-section-siouxlookout span {
+      font-size: 1.25rem;
+      line-height: 1.5;
+    }
+  }
+  
+  @media (min-width: 1690px){
+    .text-section-siouxlookout span {
+      font-size: 1.3rem;
+      line-height: 1.5;
+    }
+  }
+  
+  

@@ -13,7 +13,7 @@ function OxfordStreet() {
                 <div className="overlay-project"></div>
                 <img src={Project8} alt="image-description" />
                 <div className="text-container-project">
-                    <h1>Oxford Street West, London, ON</h1>
+                    <h1>Oxford St. West, London, ON</h1>
                 </div>
             </div>
             <div className="centered-section-oxfordstreet">

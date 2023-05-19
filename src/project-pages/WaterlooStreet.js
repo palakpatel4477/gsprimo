@@ -13,7 +13,7 @@ function WaterlooStreet() {
                 <div className="overlay-project"></div>
                 <img src={Project9} alt="image-description" />
                 <div className="text-container-project">
-                    <h1>Waterloo Street, Kitchener, ON</h1>
+                    <h1>Waterloo St., Kitchener, ON</h1>
                 </div>
             </div>
             <div className="centered-section-waterloostreet">

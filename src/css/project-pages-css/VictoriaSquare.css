@@ -26,7 +26,7 @@
   
   .image-section-victoriasquare {
     flex-basis: 50%;
-    margin-right: 50px;
+    /* margin-right: 50px; */
   }
   
   .project-image-victoriasquare {
@@ -39,3 +39,66 @@
   .image-row{
     margin-top: 2.1%;
   }
+
+  /* Laptop size */
+
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .centered-section-victoriasquare {
+    max-width: 94%;
+    /* height: auto; */
+  }
+
+  .text-section-victoriasquare h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .text-section-victoriasquare span {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  .image-section-victoriasquare{
+    margin-right: 0;
+  }
+
+  .image-section-victoriasquare img{
+    width: 100%;
+    /* background-size: cover; */
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1400px){
+  .text-section-victoriasquare span {
+    font-size: 1.19rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1401px){
+  .text-section-victoriasquare span {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1441px){
+  .centered-section-victoriasquare {
+    max-width: 70%;
+    /* height: auto; */
+  }
+  .text-section-victoriasquare span {
+    font-size: 1.08rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1690px){
+  .text-section-victoriasquare span {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+}
+

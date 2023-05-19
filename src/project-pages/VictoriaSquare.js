@@ -14,7 +14,7 @@ const VictoriaSquare = () => {
               <div className="overlay-project"></div>
               <img src={Project1} alt="image-description" />
               <div className="text-container-project">
-                <h1>Victoria Square Boulevard, Markham, ON</h1>
+                <h1>Victoria Sq. Blvd., Markham, ON</h1>
               </div>
           </div>
     <div className="centered-section-victoriasquare">

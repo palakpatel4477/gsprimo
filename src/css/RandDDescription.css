@@ -26,11 +26,12 @@
 
 .text-section-randd h3{
   margin: 0;
+  margin-bottom: 20px;
   padding:0;
 }
 
 .text-section-randd span {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 200;
   line-height: 1.5;
 }
@@ -38,6 +39,11 @@
 .image-section-randd {
   flex-basis: 50%;
   margin-right: 50px;
+}
+
+.image-section-randd img{
+  width: 100%;
+  /* background-size: cover; */
 }
 
 .project-image-randd {
@@ -51,3 +57,60 @@
 .image-row {
   margin-top: 2.1%;
 }
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .centered-section-randd {
+    max-width: 94%;
+    /* height: auto; */
+  }
+
+  .text-section-randd h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .text-section-randd span {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  .image-section-randd img{
+    width: 100%;
+    /* background-size: cover; */
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1400px){
+  .text-section-randd span {
+    font-size: 1.19rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1401px){
+  .text-section-randd span {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1441px){
+  .centered-section-randd {
+    max-width: 70%;
+    /* height: auto; */
+  }
+  .text-section-randd span {
+    font-size: 1.08rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1690px){
+  .text-section-randd span {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+}
+

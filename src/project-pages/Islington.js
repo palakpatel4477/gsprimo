@@ -13,7 +13,7 @@ function Islington() {
                 <div className="overlay-project"></div>
                 <img src={Project5} alt="image-description" />
                 <div className="text-container-project">
-                    <h1>Islington Ave, Toronto, ON</h1>
+                    <h1>Islington Ave., Toronto, ON</h1>
                 </div>
             </div>
             <div className="centered-section-islington">

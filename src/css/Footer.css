@@ -83,3 +83,10 @@ div.copyright a {
     color: #074ab0;
     font-weight:bold;
 }
+
+@media (min-width:1024px) and (max-width:1440px){
+    footer{
+        /* padding: auto auto; */
+        /* margin: 0; */
+    }
+}

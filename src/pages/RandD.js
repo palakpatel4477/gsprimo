@@ -17,13 +17,11 @@ const RandD = () => {
         </div>
       </div> */}
       <section className="hero-randd">
-        {/* <img src={Image} alt="image-description-career" /> */}
         <div className="overlay-services"></div>
         <div className="text-container-project">
-          <h1>R & D</h1>
+          <h1>Research & Development</h1>
         </div>
       </section>
-      {/* <CareerDescription/> */}
       <RandDDescription/>
       <AboutUsContactSection/>
       <Footer/>

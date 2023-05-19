@@ -1,7 +1,6 @@
 import React from 'react';
 import ProjectCard from '../Components/ProjectCard';
 import '../css/OurProjects.css';
-import GoogleMap from './GoogleMap';
 
 
 //project images
@@ -33,15 +32,15 @@ const OurProjects = () => {
       index: 2,
       imageUrl: Project2,
       services:["Geotechnical","Hydrogeology","Phase I ESA"],
-      title: 'Imperial Road, Malahide, ON',
+      title: 'Imperial Rd., Malahide, ON',
       link: 'ImperialRoad',
     },
     {
       //p6
       index: 3,
       imageUrl: Project3,
-      services:["Secondary Containment","Geostructural"],
-      title: 'Highbury Ave N, London, ON',
+      services:["Environmental","Geostructural"],
+      title: 'Highbury Ave. N, London, ON',
       link: 'Highbury',
     },
     {
@@ -49,7 +48,7 @@ const OurProjects = () => {
       index: 4,
       imageUrl: Project4,
       services:["Slope Stability","Erosion Control"],
-      title: 'Township of Aldborough, West Elgin, ON',
+      title: 'Aldborough, West Elgin, ON',
       link: 'TownshipAldborough',
     },
     {
@@ -57,7 +56,7 @@ const OurProjects = () => {
       index: 5,
       imageUrl: Project5,
       services:["Geotechnical","Shoring Design"],
-      title: 'Islington Ave, Toronto, ON',
+      title: 'Islington Ave., Toronto, ON',
       link: 'Islington',
     },
     {
@@ -65,7 +64,7 @@ const OurProjects = () => {
       index: 6,
       imageUrl: Project6,
       services:["Geotechnical","Shoring Design"],
-      title: 'Victoria Square Boulevard, Markham, ON',
+      title: 'Victoria Sq. Blvd., Markham, ON',
       link: 'VictoriaSquare',
     },
     {
@@ -73,7 +72,7 @@ const OurProjects = () => {
       index: 7,
       imageUrl: Project7,
       services:["Geotechnical","Topo Survey","Erosion Control"],
-      title: 'Township Road 6, Blandford-Blenheim, ON',
+      title: 'Blandford-Blenheim, ON',
       link: 'BlandfordBlenheim',
     },
     {
@@ -81,7 +80,7 @@ const OurProjects = () => {
       index: 8,
       imageUrl: Project8,
       services:["Phase I & II ESA","Reliance Letter"],
-      title: 'Oxford Street West, London, ON',
+      title: 'Oxford St. West, London, ON',
       link: 'OxfordStreet',
     },
     {
@@ -89,7 +88,7 @@ const OurProjects = () => {
       index: 9,
       imageUrl: Project9,
       services:["Geotechnical","Civil","Structural"],
-      title: 'Waterloo Street, Kitchener, ON',
+      title: 'Waterloo St., Kitchener, ON',
       link: 'WaterlooStreet',
     },
     {
@@ -97,7 +96,7 @@ const OurProjects = () => {
       index: 10,
       imageUrl: Project10,
       services:["Geotechnical","Hydrogeology","Civil"],
-      title: 'Clive Road, Kitchener, ON',
+      title: 'Clive Rd., Kitchener, ON',
       link: 'CliveRoad',
     },
     {
@@ -105,7 +104,7 @@ const OurProjects = () => {
       index: 11,
       imageUrl: Project11,
       services:["Geotechnical","Civil","Structural"],
-      title: 'Fifth Ave, Sioux Lookout, ON',
+      title: 'Fifth Ave., Sioux Lookout, ON',
       link: 'SiouxLookout',
     },
     {
@@ -119,8 +118,7 @@ const OurProjects = () => {
   ];
   return (
     <>
-      <div>
-        {/* <h2 className='heading-projects'><span className='spanText-project-section' style={{fontWeight:"200"}}>Our </span>Projects</h2> */}
+      <div className='main-outer-project-card-section'>
         <div className="outer-project-card">
           <div className="project-cards">
           {projects.map((project) => (
@@ -137,7 +135,6 @@ const OurProjects = () => {
           </div>
         </div>
       </div>
-      {/* <GoogleMap/> */}
     </>
     
   );

@@ -44,7 +44,7 @@ const Footer = () => {
             </footer>
             <div className="copyright">
                 <p>Copyright © 2023
-                    <a href="https://gsprimo.com/"> GSPrimo Inc. </a>
+                    <a href="https://gsprimo.com/"> GSPrimo Design Inc. </a>
                     All rights reserved.</p>
             </div>
         </>

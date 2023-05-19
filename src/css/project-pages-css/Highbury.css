@@ -26,7 +26,7 @@
   
   .image-section-highbury {
     flex-basis: 50%;
-    margin-right: 50px;
+    /* margin-right: 50px; */
   }
   
   .project-image-highbury {
@@ -39,3 +39,68 @@
   .image-row{
     margin-top: 2.1%;
   }
+
+  /* Laptop size */
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .centered-section-highbury {
+    max-width: 94%;
+    /* height: auto; */
+  }
+
+  .text-section-highbury h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .text-section-highbury span {
+    font-size: 1.28rem;
+    line-height: 1.5;
+  }
+  .image-section-highbury{
+    margin-right: 0;
+  }
+  .image-section-highbury img{
+    width: 100%;
+    /* background-size: cover; */
+  }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1400px){
+  .text-section-highbury span {
+    font-size: 1.35rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1401px){
+  .text-section-highbury span {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1441px) and (max-width:1600px){
+  .centered-section-highbury {
+    max-width: 80%;
+    /* height: auto; */
+  }
+  .text-section-highbury span {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1601px){
+  .centered-section-highbury {
+    max-width: 70%;
+  }
+  .text-section-highbury span {
+    font-size: 1.35rem;
+    line-height: 1.5;
+  }
+}
+

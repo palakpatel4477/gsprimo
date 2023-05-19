@@ -16,7 +16,7 @@ function TownshipAldborough() {
               <div className="overlay-project"></div>
               <img src={Project4} alt="image-description" />
               <div className="text-container-project">
-                <h1>Township of Aldborough, West Elgin, ON</h1>
+                <h1>Aldborough, West Elgin, ON</h1>
               </div>
           </div>
           <div className="centered-section-township">
@@ -42,7 +42,7 @@ function TownshipAldborough() {
               <div className="image-section-township">
                   <img className='project-image-township' src={P41} alt="Section Image" />
               </div>
-              <div className="text-section-township">
+              <div className="text-section-township" id='para-two-township'>
                   <span>
                       Slope stability analyses and soil erosion assessments were then conducted, based on
                       guidelines, codes, and standards, such as MNR Guidelines and the Canadian Foundation Engineering Manual.

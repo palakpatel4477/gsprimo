@@ -19,7 +19,7 @@ function CliveRoad() {
                 <div className="overlay-project"></div>
                 <img src={Project10} alt="image-description" />
                 <div className="text-container-project">
-                    <h1>Clive Road, Kitchener, ON</h1>
+                    <h1>Clive Rd., Kitchener, ON</h1>
                 </div>
             </div>
             <div className="centered-section-cliveroad">
@@ -38,7 +38,7 @@ function CliveRoad() {
                 <div className="image-section-cliveroad">
                     <img className='project-image-cliveroad' src={P1} alt="Section Image" />
                 </div>
-                <div className="text-section-cliveroad">
+                <div className="text-section-cliveroad" id='para-two-cliveroad'>
                     <span>
                         Based on the information obtained from these studies and design works, geotechnical and hydrogeological recommendations were provided to facilitate the proposed development. 
                         In addition, a comprehensive Civil Engineering Design was carried out, including the Functional Servicing, Stormwater Management Plan, Grading Plan, and Erosion Control Plan. A report and sets of drawings were also prepared to document the Civil Engineering Design for the proposed development. 

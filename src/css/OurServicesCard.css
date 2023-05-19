@@ -1,10 +1,13 @@
 .outer-ourservice-card{
     background-color: #f5fcff;
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 
 .outer-ourservice-card h2{
+  /* padding-top: 100px; */
   font-size: 2.8rem;
+  margin: 0;
+  padding: 3% 0;
 }
 
 .service-cards {
@@ -77,12 +80,6 @@
   .service-card .read-more:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
-  
-  /* .service-card .read-more a {
-    color: #387ab4;
-    font-size: 16px;
-    text-decoration: none;
-  } */
 
   .service-card a{
     position: absolute;
@@ -98,6 +95,65 @@
   .heading-projects{
     text-align: center;  
     font-size: 2.5rem;
+    /* margin: 20px auto ; */
   }
+
+
+  /* Laptop size */
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .outer-ourservice-card {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  
+    .heading-projects {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  
+    .service-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap:50px;
+    }
+  
+    .service-card {
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      text-align: left;
+      transition: background-color 0.3s ease;
+    }
+
+    .service-card img {
+      width: 100%;
+      /* height: auto; */
+      margin-bottom: 10px;
+    }
+  
+    .service-card h3 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    .service-card p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+  
+    .service-card a {
+      font-size: 16px;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+  }
+  
+
+  
 
   

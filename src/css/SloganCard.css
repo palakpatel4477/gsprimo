@@ -2,7 +2,7 @@
 .slogancard-main-section{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height:510px;
+    /* height:510px; */
     margin-top: 3%;
 }
 
@@ -78,3 +78,79 @@
     font-size: 1.6rem;
     margin-bottom: 15px;
 }
+
+/* Laptop size */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .slogan-text {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .slogan-text h2 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    .slogancard-main-section {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+      height: auto;
+      gap: 20px;
+    }
+  
+    .slogan-left-section {
+      flex: 1;
+      margin-left: 0;
+      padding-left: 10%;
+      /* margin-left: 10%; */
+    }
+  
+    .slogan-left-section p {
+      margin-bottom: 10px;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  
+    .btn-about-slogan {
+      display: block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      /* font-weight: bold; */
+      text-decoration: none;
+      cursor: pointer;
+    }
+  
+    .slogan-right-section {
+      flex: 1;
+      margin-left:20px ;
+      padding-right: 10%;
+    }
+  
+    .slogan-right-section h2 {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  
+    .check {
+      margin-right: 10px;
+    }
+  
+    .check-text {
+      font-size: 16px;
+      font-weight: normal;
+    }
+  
+    .slogan-right-section p {
+      margin-bottom: 10px;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
+  

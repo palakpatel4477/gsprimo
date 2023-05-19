@@ -92,7 +92,7 @@ const TestSlide = () => {
 
   return (
     <>
-    <div>
+    <div className='main-slide'>
         <div className='slide-static-card-section'>
           <div className='static-card'>
             <a href='projects'>
@@ -102,6 +102,7 @@ const TestSlide = () => {
             </a>
           </div>
           <div className="slideshow">
+            <h3>Projects</h3>
             <div className="slideshow-wrapper" style={{ transform: `translateX(${translateValue}%)` }}>
               {items.map((item, index) => (
                 <div key={index} className="slideshow-item">

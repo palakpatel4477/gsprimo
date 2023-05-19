@@ -60,7 +60,7 @@ const SeviceDetail = () => {
       {/* Hydrogeological */}
       <div className='main-section-hydrogeological'>
         <div className='description-section-hydrogeological'>
-          <h2>Hydrogeological</h2>
+          <h2>Hydrogeology</h2>
           {/* <hr /> */}
           <p>Our engineers and drilling crews install monitoring wells and analyze 
             groundwater table from observation well measurements, and surface water and 
